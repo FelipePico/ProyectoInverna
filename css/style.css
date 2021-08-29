@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .contenedor-bienvenida{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #efefef;
+    height: 100px;
+    padding-top: 25px;
+    
+    border-bottom: 1px solid #3ab0ff;
+    border-top: 1px solid #3ab0ff
+  }
+
+  .contenedor-bienvenida a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid #3ab0ff;
+    border-radius: 5px;
+    margin-top: -5px; 
+    padding: 10px;
+  }
+
+  .contenedor-bienvenida a:hover{
+    color: white;
+    background: #3ab0ff;
+  }
+
+  .bienvenida{
+    margin-right: 100px;
+    display: inline-block;
+  }
+  
+  .body {
+    font-family: sans-serif;
+    
+  
+  
+  }
+
+  table{
+    border-spacing: 0px solid black !important;
+    
+  }
+
+  table a{
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  table a:hover{
+    color: white;
+    background: grey;
+  }
+
+  .table thead{
+  background: grey;
+  color: white;
+  }
+
+  td {
+    border: 1px solid black !important;
+    border-radius: 5px; 
+    padding: 10px;
+
+  }
+  
+  .bg-image {
+    background-image: url('../img/pexels-adam-kontor-539282.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+  }
+  
+  .container {
+    margin-top: 250px;
+    margin-left: 700px;
+    background: rgb(255, 255, 255, 0.7);
+    width: 500px;
+    height: 480px;
+    border-radius: 20px;
+    border: solid white;
+
+  }
+
+
+
+  .container a{
+    color: grey;
+    text-decoration: none;
+  }
+
+  .container a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  
+  form {
+    width: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    padding: 80px 0;
+    border-radius: 5px;
+  
+    /*overflow: hidden;*/
+  }
+
+  .body-editar{
+    background: #e5e5e5;
+    font-family: sans-serif;
+    background-image: url('../img/pexels-adam-kontor-539282.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .label{
+    background: white;
+    
+  }
+
+  .form-editar {
+    text-align: center;
+    max-height: 800px !important;
+    background: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+    border: solid grey;
+    margin-top: 100px;
+  }
+
+ .form-editar input{
+    text-align: center;
+    width: 380px;
+
+  }
+
+  .form-editar button {
+    border: 2px solid #00c4e6;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #00c4e6;
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    outline: 0;
+  }
+
+  .form-editar button:hover{
+    background: #12c9e5;
+    
+  }
+  
+  .input-group {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .input-group .icons {
+    width: 35px;
+    height: 35px;
+    background-color: #00c4e6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  
+  .input-group .form-control {
+    flex-grow: 1;
+    height: 35px;
+    border: transparent;
+    background-color: #fff;
+    color: #757575;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    outline: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: #00e676;
+  }
+  
+  .btn {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-flat-green {
+    border: 2px solid #00c4e6;
+    height: 35px;
+    background-color: #00c4e6;
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    outline: 0;
+  }
+
+  .btn-flat-green:hover{
+    background: #12c9e5;
+    
+  }
+  
+  .login-link {
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #00c4e6;
+  }
+
+.padre{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.boton{
+  /**background: grey;*/
+  color: white;
+}
+.boton{
+  color: black !important;
+  text-decoration: none !important;
+  
+  margin-top: -5px !important; 
+  padding: 10px !important;
+}
+.actual{
+  background: rgb(20, 69, 124) !important;
+  color: rgb(255, 255, 255) !important;
+}
